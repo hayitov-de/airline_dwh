@@ -1,0 +1,12 @@
+dwh_demo:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      port: 5434
+      user: your_dwh_user
+      password: your_password
+      dbname: dwh_db
+      schema: stg
+      threads: 4

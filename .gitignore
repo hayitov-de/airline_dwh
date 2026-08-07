@@ -1,0 +1,16 @@
+.env
+*.env
+!.env.example
+
+# dbt
+target/
+dbt_packages/
+logs/
+*.log
+
+__pycache__/
+*.pyc
+.venv/
+
+*.sql.gz
+source_data/

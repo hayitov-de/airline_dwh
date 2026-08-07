@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Данные авиаперелотов
+    schema: raw
+    database: dwh_db
+    tables:
+      - name: airplanes_data
+        description: Модели самолетов
+      - name: airports_data
+        description: Аэропорты
+      - name: boarding_passes
+        description: Посадочные талоны
+      - name: bookings
+        description: Бронирования
+      - name: flights
+        description: Рейсы
+      - name: routes
+        description: Маршруты
+      - name: seats
+        description: Места
+      - name: segments
+        description: Сегменты
+      - name: tickets
+        description: Билеты
